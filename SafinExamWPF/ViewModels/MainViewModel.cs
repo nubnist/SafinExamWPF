@@ -13,6 +13,9 @@ using System.Windows.Controls;
 
 namespace SafinExamWPF
 {
+    /// <summary>
+    /// Реализует работу со страницами
+    /// </summary>
     public class MainViewModel : INotifyPropertyChanged
     {
         ListItemsView listView;

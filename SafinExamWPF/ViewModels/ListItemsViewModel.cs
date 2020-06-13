@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace SafinExamWPF.ViewModels
 {
+    /// <summary>
+    /// Реализует работу со списком
+    /// </summary>
     public class ListItemsViewModel : INotifyPropertyChanged
     {
         static private List<Box> _boxes;

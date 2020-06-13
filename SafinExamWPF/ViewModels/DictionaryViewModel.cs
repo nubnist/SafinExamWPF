@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace SafinExamWPF.ViewModels
 {
+    /// <summary>
+    /// Реальзует работу со словарем
+    /// </summary>
     public class DictionaryViewModel : INotifyPropertyChanged
     {
         private Dictionary<string, Box> _boxes;

@@ -7,6 +7,9 @@ using System.Windows.Input;
 
 namespace SafinExamWPF.ViewModels
 {
+    /// <summary>
+    /// Реализует выполнение команд
+    /// </summary>
     public class RelayCommand : ICommand
     {
         private Action<object> execute;
